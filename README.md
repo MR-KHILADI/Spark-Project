@@ -88,7 +88,7 @@ for i in articles['response']['docs']:
         f.close()
     j = j +1
 ```
-[Image of Plot](images/ArticlesOutput.PNG)
+![Image of Plot](images/ArticlesOutput.PNG)
 
 - A note to take for the above section of code is that we may sometimes find an "UNICODE Error" due to the fact that sometimes in articles there might be some different languages and also different signs that python may not understand until we decode it using .encode function for utf.
 - Everytime the code above is made to run the test.csv file is get appended and more new articles on sexual abuse would be added to current test.csv file.
